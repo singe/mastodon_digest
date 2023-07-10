@@ -1,7 +1,7 @@
 name: My Mastodon Digest 
 on:
   schedule:
-    - cron: '55 6,11,15,19,23 * * *'
+    - cron: '55 2,6,10,14,18 * * *'
   workflow_dispatch:
 jobs:
   update:
